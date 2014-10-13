@@ -31,14 +31,14 @@ table.b {
 }
 td.a {
 
-    background: rgba(235,220,59,1);
-    background: -moz-linear-gradient(top, rgba(235,220,59,1) 0%, rgba(92,64,27,1) 100%);
-    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(235,220,59,1)), color-stop(100%, rgba(92,64,27,1)));
-    background: -webkit-linear-gradient(top, rgba(235,220,59,1) 0%, rgba(92,64,27,1) 100%);
-    background: -o-linear-gradient(top, rgba(235,220,59,1) 0%, rgba(92,64,27,1) 100%);
-    background: -ms-linear-gradient(top, rgba(235,220,59,1) 0%, rgba(92,64,27,1) 100%);
-    background: -o-linear-gradient(to bottom, rgba(235,220,59,1) 0%, rgba(92,64,27,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ebdc3b', endColorstr='#5c401b', GradientType=0 );
+    background: rgba(176,148,46,1);
+    background: -moz-linear-gradient(top, rgba(176,148,46,1) 0%, rgba(232,224,142,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(176,148,46,1)), color-stop(100%, rgba(232,224,142,1)));
+    background: -webkit-linear-gradient(top, rgba(176,148,46,1) 0%, rgba(232,224,142,1) 100%);
+    background: -o-linear-gradient(top, rgba(176,148,46,1) 0%, rgba(232,224,142,1) 100%);
+    background: -ms-linear-gradient(top, rgba(176,148,46,1) 0%, rgba(232,224,142,1) 100%);
+    background: -o-linear-gradient(to bottom, rgba(176,148,46,1) 0%, rgba(232,224,142,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b0942e', endColorstr='#e8e08e', GradientType=0 );
     border:1px solid #000000;
     border-width:0px 1px 1px 0px;
     text-align:center;
@@ -81,7 +81,7 @@ td.c {
 #left {
     line-height:50px;
     background-color:black;
-    height:1000px;
+    height:100%;
     width:385px;
     float:left;
     padding-left:10px;

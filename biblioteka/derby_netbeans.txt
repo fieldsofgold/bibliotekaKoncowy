@@ -5,6 +5,7 @@ CREATE TABLE ksiazki (
   tytul        VARCHAR(255),
   opis    	VARCHAR(255),
   autor	     VARCHAR(255),
+kraj		VARCHAR(255);
   ilosc        INT,
   kategoria   VARCHAR(255)
 );

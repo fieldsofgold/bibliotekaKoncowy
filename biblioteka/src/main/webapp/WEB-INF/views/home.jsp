@@ -38,7 +38,7 @@
         </div> 
         <div class="time">
             <div class="container">
-                <h4>Dzisiaj mamy ${serverTime}</h4>
+                <h4>${serverTime}</h4>
             </div>
         </div>
     </body>

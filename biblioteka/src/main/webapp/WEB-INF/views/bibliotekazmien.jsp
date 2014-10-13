@@ -25,11 +25,12 @@
                     <tr class="b">
                         <td class="b">Autor:</td> <td class="b"><form:input path="autor" /></td>
                     </tr>
-
+                    <tr class="b">
+                        <td class="b">Kraj:</td> <td class="b"><form:input path="kraj" /></td>
+                    </tr>
                     <tr class="b">
                         <td class="b">Ilosc:</td> <td class="b"><form:input path="ilosc" /></td>
                     </tr>
-
                     <tr class="b">
                         <td class="b">Kategoria:</td> <td class="b"><form:input path="kategoria" /></td>
                     </tr>

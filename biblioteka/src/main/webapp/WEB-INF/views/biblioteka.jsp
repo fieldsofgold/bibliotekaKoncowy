@@ -24,6 +24,9 @@
                         <td class="b">Autor:</td>      <td class="b"><form:input path="autor" /></td>
                     </tr>
                     <tr class="b">
+                        <td class="b">Kraj:</td>      <td class="b"><form:input path="kraj" /></td>
+                    </tr>
+                    <tr class="b">
                         <td class="b">Ilosc:</td>     <td class="b"><form:input path="ilosc" /></td>
                     </tr>
                     <tr class="b">
@@ -52,8 +55,9 @@
                     <tr class="b">
                         <td>________</td><td class="b"><select name="kategoria">
                                 <option value="1" >Tytu&#322;</option>
-                                <option value="2" >Opis</option>
-                                <option value="5" >Kategoria</option>
+                                <option value="3" >Autor</option>
+                                <option value="4" >Kraj</option>
+                                <option value="6" >Kategoria</option>
                             </select>
                         </td>
                     </tr>
@@ -61,6 +65,7 @@
                         <td>     </td><td class="b"><input type="submit" name="filter" value="Filtruj" ></td>
                     </tr>
                 </table>
+                <center><a href="./">Powrot</a></center>
             </form>
         </div>
         <div id="right">
@@ -70,8 +75,9 @@
                     <td class="a"><a href="biblioteka?sort=1">Tytu&#322;</a></td>
                     <td class="a"><a href="biblioteka?sort=2">Opis</a></td>
                     <td class="a"><a href="biblioteka?sort=3">Autor</a></td>
-                    <td class="a"><a href="biblioteka?sort=4">Ilosc</a></td>
-                    <td class="a"><a href="biblioteka?sort=5">Kategoria</a></td>
+                    <td class="a"><a href="biblioteka?sort=4">Kraj</a></td>
+                    <td class="a"><a href="biblioteka?sort=5">Ilosc</a></td>
+                    <td class="a"><a href="biblioteka?sort=6">Kategoria</a></td>
                     <td class="a">Usu&#324;</td>
                     <td class="a">Zmie&#324;</td>
                 </tr>
@@ -81,6 +87,7 @@
                         <td class="c"><c:out value="${ksiazka.tytul}" /></td>
                         <td class="c"><c:out value="${ksiazka.opis}" /></td>
                         <td class="c"><c:out value="${ksiazka.autor}" /></td>
+                        <td class="c"><c:out value="${ksiazka.kraj}" /></td>
                         <td class="c"><c:out value="${ksiazka.ilosc}" /></td>
                         <td class="c"><c:out value="${ksiazka.kategoria}" /></td>
                         <td class="c"><a href="biblioteka?id=${ksiazka.id}&action=delete">Usu&#324;</a></td>

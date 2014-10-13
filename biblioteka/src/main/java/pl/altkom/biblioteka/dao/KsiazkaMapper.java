@@ -14,6 +14,7 @@ public class KsiazkaMapper implements RowMapper<Ksiazka> {
 		ksiazka.setTytul(row.getString("tytul"));
 		ksiazka.setOpis(row.getString("opis"));
 		ksiazka.setAutor(row.getString("autor"));
+                ksiazka.setKraj(row.getString("kraj"));
 		ksiazka.setIlosc(row.getInt("ilosc"));
 		ksiazka.setKategoria(row.getString("kategoria"));
 		return ksiazka;

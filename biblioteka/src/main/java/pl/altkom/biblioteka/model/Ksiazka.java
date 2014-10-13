@@ -13,15 +13,20 @@ public class Ksiazka implements Serializable, Comparable {
     private String opis;
     @NotNull
     private String autor;
+    private String kraj;
     private int ilosc;
     @NotNull
     private String kategoria;
 
-    public Ksiazka(long id, String tytul, String opis, String autor, int ilosc, String kategoria) {
+   
+
+
+    public Ksiazka(long id, String tytul, String opis, String autor, int ilosc, String kategoria, String kraj) {
         this.id = id;
         this.tytul = tytul;
         this.opis = opis;
         this.autor = autor;
+        this.kraj = kraj;
         this.ilosc = ilosc;
         this.kategoria = kategoria;
     }
@@ -60,6 +65,13 @@ public class Ksiazka implements Serializable, Comparable {
 
     public void setAutor(String autor) {
         this.autor = autor;
+    }
+     public String getKraj() {
+        return kraj;
+    }
+
+    public void setKraj(String kraj) {
+        this.kraj = kraj;
     }
 
     public int getIlosc() {
