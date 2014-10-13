@@ -9,6 +9,7 @@ and open the template in the editor.
 */
 body {
     font-family: Garamond;
+    background-image:url('logo_books1.jpg');
 }
 div {
     border: 2px solid darkgoldenrod;
