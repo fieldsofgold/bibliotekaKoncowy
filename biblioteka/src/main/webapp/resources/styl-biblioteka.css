@@ -10,6 +10,7 @@ and open the template in the editor.
 body {
     background-color: #FAFAFA;
     font-family: Garamond;
+    background-image:url('knigii.jpg');
 }
 
 form {
