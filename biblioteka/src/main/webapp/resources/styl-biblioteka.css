@@ -51,7 +51,7 @@ td.a {
 }
 td.b {
 
-    background-color:black;
+    /*background-color:black;*/
     border:1px none;
     border-width:0px 1px 1px 0px;
     text-align:left;
@@ -81,15 +81,16 @@ td.c {
 }
 #left {
     line-height:50px;
-    background-color:black;
+    /*background-color:black;*/
+    /*background-image: url('small1.png');*/
     height:100%;
     width:385px;
     float:left;
     padding-left:10px;
-    border-radius: 10px 10px 10px 10px;
+/*    border-radius: 10px 10px 10px 10px;
     -moz-border-radius: 10px 10px 10px 10px;
     -webkit-border-radius: 10px 10px 10px 10px;
-    border: 0px solid #000000;
+    border: 0px solid #000000;*/
 }
 #right {
     width:0px;
