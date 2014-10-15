@@ -2,20 +2,24 @@ package pl.altkom.biblioteka.model;
 
 import java.io.Serializable;
 import java.util.Comparator;
-import javax.validation.constraints.NotNull;
+
+import javax.validation.constraints.Size;
+import org.hibernate.validator.constraints.NotEmpty;
 
 public class Ksiazka implements Serializable, Comparable {
     
     private long id;
-    @NotNull
+    @NotEmpty(message="To pole jest wymagane")
     private String tytul;
-    @NotNull
+    @NotEmpty(message="To pole jest wymagane")
     private String opis;
-    @NotNull
+    @NotEmpty(message="To pole jest wymagane")
     private String autor;
+    @NotEmpty(message="To pole jest wymagane")
     private String kraj;
+    
     private int ilosc;
-    @NotNull
+    @NotEmpty(message="To pole jest wymagane")
     private String kategoria;
 
    
