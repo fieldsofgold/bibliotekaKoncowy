@@ -5,7 +5,7 @@
         <link href="${pageContext.request.contextPath}/resources/styl-biblioteka.css" rel="stylesheet" type="text/css"/>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         <title>Insert title here</title>
-        <link rel="icon" href="/resources/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="<c:url value="/resources/favicon.ico" />" type="image/x-icon">
         <!--    <style>
                     
                 </style>-->
@@ -40,7 +40,7 @@
                         <td><form:errors path="kraj" cssStyle="color: #ff0000;"/></td>
                     </tr>
                     <tr class="b">
-                        <td class="b">Ilosc:</td>     <td class="b"><form:input type="number" path="ilosc" /></td>
+                        <td class="b">Liczba:</td>     <td class="b"><form:input type="number" path="ilosc" /></td>
                     </tr>
                     <tr class="b">
                         <td class="b">Kategoria:</td> <td class="b"><form:input path="kategoria" /></td>

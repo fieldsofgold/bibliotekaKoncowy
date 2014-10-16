@@ -5,6 +5,7 @@
         <title>Home</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         <link href="${pageContext.request.contextPath}/resources/styl.css" rel="stylesheet" type="text/css"/>
+        <link rel="icon" href="<c:url value="/resources/favicon.ico" />" type="image/x-icon">
     </head>
     <body>
         <div class="nav">
