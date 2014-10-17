@@ -2,6 +2,7 @@ package pl.altkom.biblioteka.model;
 
 import java.io.Serializable;
 import java.util.Comparator;
+import javax.validation.constraints.Pattern;
 
 import javax.validation.constraints.Size;
 import org.hibernate.validator.constraints.NotEmpty;
@@ -14,6 +15,7 @@ public class Ksiazka implements Serializable, Comparable {
     @NotEmpty(message="To pole jest wymagane")
     private String opis;
     @NotEmpty(message="To pole jest wymagane")
+    @Pattern(regexp="[a-zA-ZżźćńółęąśŻŹĆĄŚĘŁÓŃ]+[\\\\.]?[\\\\\\-]?[\\\\\\s]?"+"[a-zA-ZżźćńółęąśŻŹĆĄŚĘŁÓŃ]+[\\\\.]?[\\\\\\-]?[\\\\\\s]?[a-zA-ZżźćńółęąśŻŹĆĄŚĘŁÓŃ]+")  
     private String autor;
     @NotEmpty(message="To pole jest wymagane")
     private String kraj;
